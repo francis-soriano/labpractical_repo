@@ -24,5 +24,6 @@ print("Shapefile imported!")
 
 print("Opening a search cursor on the feature class...")
 arcpy.env.workspace = gdb_path # Moving workspace into geodatabase
+with arcpy.da.SearchCursor
 
 
